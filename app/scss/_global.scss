@@ -1,0 +1,94 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: ivory;
+    font-size: 27px;
+    border-radius: 25px;
+    padding: 5px;
+    color: rgb(97, 8, 8);
+}
+
+// .bg {
+//     position: static;
+//     border-radius: 25%;
+//     width: 100%;
+//     margin: -7px;
+    
+//     &__img {
+//         padding: 0;
+//         width: 100%;
+//     }
+
+//     &__logo {
+//         opacity: 1 ;
+//         font-size: 77px;
+//         position: absolute;
+//         color: honeydew;
+//         top: 2em;
+//         left: 1.5em;
+//     }
+
+// }
+
+.page {
+    // position: absolute;
+    // top: 7em;
+    // left: 1em;
+    // right: 1em;
+    //padding: 50px;
+    //color: black;
+    background: linear-gradient( peachpuff ,rgb(230, 159, 139)) ;
+    border-radius: 1rem;
+    text-align: center;
+
+    &__wic {
+        color: rgb(97, 8, 8);
+        size: 0.5rem;
+        font-weight: 700;
+    }
+
+    &__space {
+        padding: 3rem;
+    }
+}
+
+// .child {
+//     position: relative;
+//     background-color: cadetblue;
+//     border-radius: inherit;
+//     width: auto;
+//     top: 50px;
+//     left: 50px;
+//     padding: 50px;
+
+// }
+
+footer {
+    position: static;
+    color: inherit;
+    background: wheat;
+    // background: linear-gradient(white, rgb(207, 185, 185));
+    border-radius: 1rem;
+    margin-top: -2rem;
+    padding: 1rem;
+
+
+}
+
+.inline {
+    position: relative;
+    padding: 5px;
+    background: linear-gradient(to right, orange 5px, wheat 2px, wheat);
+    margin: 5px;
+}
+.boxf {
+    display: inline-block;
+    //background: solid 2px white;
+}
