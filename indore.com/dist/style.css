@@ -1,0 +1,79 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background: ivory;
+  font-size: 27px;
+  border-radius: 25px;
+  padding: 5px;
+  color: #610808;
+}
+
+.bg {
+  position: static;
+  border-radius: 25%;
+  width: 100%;
+  margin: -7px;
+}
+
+.bg__img {
+  padding: 0;
+  width: 100%;
+}
+
+.bg__logo {
+  opacity: 1;
+  font-size: 77px;
+  position: absolute;
+  color: honeydew;
+  top: 2em;
+  left: 1.5em;
+}
+
+.page {
+  margin: -2rem;
+  background: #ecded2;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.page__wic {
+  color: #610808;
+  size: 0.5rem;
+  font-weight: 700;
+}
+
+.page__space {
+  padding: 3rem;
+}
+
+footer {
+  position: static;
+  color: inherit;
+  background: #ceccc9;
+  border-radius: 1rem;
+  margin-top: -2rem;
+  padding: 1rem;
+}
+
+.inline {
+  position: relative;
+  padding: 5px;
+  background: linear-gradient(to right, orange 5px, #ceccc9 2px, #ceccc9);
+  margin: 5px;
+}
+
+.boxf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
